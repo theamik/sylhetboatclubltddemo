@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background:
+    linear-gradient(rgba(240, 248, 255, 0.65), rgba(210, 232, 245, 0.75)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 900px;
+  min-height: 520px;
+  padding: 70px 30px;
+  text-align: center;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 20px 60px rgba(0, 40, 80, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+  font-size: 70px;
+  color: #0b3b66;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(38px, 7vw, 78px);
+  color: #09243d;
+  letter-spacing: 1px;
+}
+
+.line {
+  width: 160px;
+  height: 2px;
+  background: #0b3b66;
+  margin: 28px auto;
+}
+
+h2 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: clamp(24px, 4vw, 42px);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #123b5d;
+}
+
+.developer {
+  margin-top: 45px;
+  font-size: clamp(18px, 3vw, 28px);
+  color: #111;
+}
+
+.developer a {
+  color: #005bbb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.developer span {
+  color: #005bbb;
+}
+
+.phone {
+  margin-top: 25px;
+  font-size: clamp(24px, 4vw, 38px);
+  color: #09243d;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
